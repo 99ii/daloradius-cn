@@ -28,119 +28,119 @@ $l['all']['copyright1'] = "RADIUS Management, Reporting, Accounting and Billing 
 $l['all']['copyright2'] = "daloRADIUS Copyright &copy; 2007-2019 by <a href=\"https://github.com/lirantal/daloradius\">Liran Tal</a> <br/>
 Template design by <a href=\"http://www.sixshootermedia.com\">Six Shooter Media</a>.";
 $l['all']['ID'] = "ID";
-$l['all']['PoolName'] = "Pool Name";
-$l['all']['CalledStationId'] = "CalledStationId";
-$l['all']['CallingStationID'] = "CallingStationID";
-$l['all']['ExpiryTime'] = "Expiry Time";
-$l['all']['PoolKey'] = "Pool Key";
+$l['all']['PoolName'] = "名称池";
+$l['all']['CalledStationId'] = "被叫ID";
+$l['all']['CallingStationID'] = "呼叫ID";
+$l['all']['ExpiryTime'] = "到期时间";
+$l['all']['PoolKey'] = "密钥池";
 
 /********************************************************************************/
 /* Vendor Attributes related translation                                        */
 /********************************************************************************/
-$l['all']['Dictionary'] = "Dictionary";
-$l['all']['VendorID'] = "Vendor ID";
-$l['all']['VendorName'] = "Vendor Name";
-$l['all']['VendorAttribute'] = "Vendor Attribute";
-$l['all']['RecommendedOP'] = "Recommended OP";
-$l['all']['RecommendedTable'] = "Recommended Table";
-$l['all']['RecommendedTooltip'] = "Recommended Tooltip";
-$l['all']['RecommendedHelper'] = "Recommended Helper";
+$l['all']['Dictionary'] = "字典";
+$l['all']['VendorID'] = "供应商ID";
+$l['all']['VendorName'] = "供应商名称";
+$l['all']['VendorAttribute'] = "供应商属性";
+$l['all']['RecommendedOP'] = "推荐人";
+$l['all']['RecommendedTable'] = "推荐表";
+$l['all']['RecommendedTooltip'] = "推荐工具提示";
+$l['all']['RecommendedHelper'] = "推荐助手";
 /********************************************************************************/
 
-$l['all']['CSVData'] = "CSV-formatted data";
+$l['all']['CSVData'] = "CSV格式化数据";
 
 $l['all']['CPU'] = "CPU";
 
 /* radius related text */
-$l['all']['RADIUSDictionaryPath'] = "RADIUS Dictionary Path";
+$l['all']['RADIUSDictionaryPath'] = "RADIUS字典路径";
 
 
-$l['all']['DashboardSecretKey'] = "Dashboard Secret Key";
-$l['all']['DashboardDebug'] = "Debug";
-$l['all']['DashboardDelaySoft'] = "Time in minutes to consider a 'soft' delay limit";
-$l['all']['DashboardDelayHard'] = "Time in minutes to consider a 'hard' delay limit";
+$l['all']['DashboardSecretKey'] = "仪表盘密钥";
+$l['all']['DashboardDebug'] = "调试";
+$l['all']['DashboardDelaySoft'] = "考虑每分钟“软”延迟限制时间";
+$l['all']['DashboardDelayHard'] = "考虑每分钟“硬”延迟限制时间";
 
 
 
-$l['all']['SendWelcomeNotification'] = "Send Welcome Notification";
-$l['all']['SMTPServerAddress'] = "SMTP Server Address";
-$l['all']['SMTPServerPort'] = "SMTP Server Port";
-$l['all']['SMTPServerFromEmail'] = "From Email Address";
+$l['all']['SendWelcomeNotification'] = "发送欢迎通知";
+$l['all']['SMTPServerAddress'] = "SMTP服务地址";
+$l['all']['SMTPServerPort'] = "SMTP服务端口";
+$l['all']['SMTPServerFromEmail'] = "发件人邮件地址";
 
-$l['all']['customAttributes'] = "Custom Attributes";
+$l['all']['customAttributes'] = "自定义属性";
 
-$l['all']['UserType'] = "User Type";
+$l['all']['UserType'] = "用户类型";
 
-$l['all']['BatchName'] = "Batch Name";
-$l['all']['BatchStatus'] = "Batch Status";
+$l['all']['BatchName'] = "批量名称";
+$l['all']['BatchStatus'] = "批量状态";
 
-$l['all']['Users'] = "Users";
+$l['all']['Users'] = "用户";
 
-$l['all']['Compare'] = "Compare";
-$l['all']['Never'] = "Never";
-
-
-$l['all']['Section'] = "Section";
-$l['all']['Item'] = "Item";
-
-$l['all']['Megabytes'] = "Megabytes";
-$l['all']['Gigabytes'] = "Gigabytes";
-
-$l['all']['Daily'] = "Daily";
-$l['all']['Weekly'] = "Weekly";
-$l['all']['Monthly'] = "Monthly";
-$l['all']['Yearly'] = "Yearly";
-
-$l['all']['Month'] = "Month";
-
-$l['all']['RemoveRadacctRecords'] = "Remove Accounting Records";
-
-$l['all']['CleanupSessions'] = "Cleanup sessions older than";
-$l['all']['DeleteSessions'] = "Delete sessions older than";
-
-$l['all']['StartingDate'] = "Starting Date";
-$l['all']['EndingDate'] = "Ending Date";
-
-$l['all']['Realm'] = "Realm";
-$l['all']['RealmName'] = "Realm Name";
-$l['all']['RealmSecret'] = "Realm Secert";
-$l['all']['AuthHost'] = "Auth Host";
-$l['all']['AcctHost'] = "Acct Host";
-$l['all']['Ldflag'] = "ldflag";
-$l['all']['Nostrip'] = "nostrip";
-$l['all']['Notrealm'] = "notrealm";
-$l['all']['Hints'] = "hints";
-
-$l['all']['Proxy'] = "Proxy";
-$l['all']['ProxyName'] = "Proxy Name";
-$l['all']['ProxySecret'] = "Proxy Secert";
-$l['all']['DeadTime'] = "Dead Time";
-$l['all']['RetryDelay'] = "Retry Delay";
-$l['all']['RetryCount'] = "Retry Count";
-$l['all']['DefaultFallback'] = "Default Fallback";
+$l['all']['Compare'] = "比较";
+$l['all']['Never'] = "从不";
 
 
-$l['all']['Firmware'] = "Firmware";
+$l['all']['Section'] = "部门";
+$l['all']['Item'] = "项目";
+
+$l['all']['Megabytes'] = "MB";
+$l['all']['Gigabytes'] = "GB";
+
+$l['all']['Daily'] = "每日";
+$l['all']['Weekly'] = "每周";
+$l['all']['Monthly'] = "每月";
+$l['all']['Yearly'] = "每年";
+
+$l['all']['Month'] = "月";
+
+$l['all']['RemoveRadacctRecords'] = "删除账单记录";
+
+$l['all']['CleanupSessions'] = "清理以前会话";
+$l['all']['DeleteSessions'] = "删除以前会话";
+
+$l['all']['StartingDate'] = "开始日期";
+$l['all']['EndingDate'] = "结束日期";
+
+$l['all']['Realm'] = "域";
+$l['all']['RealmName'] = "域名";
+$l['all']['RealmSecret'] = "域安全";
+$l['all']['AuthHost'] = "认证主机";
+$l['all']['AcctHost'] = "统计主机";
+$l['all']['Ldflag'] = "Ld标志";
+$l['all']['Nostrip'] = "本地IP";
+$l['all']['Notrealm'] = "非域";
+$l['all']['Hints'] = "提示";
+
+$l['all']['Proxy'] = "代理";
+$l['all']['ProxyName'] = "代理名称";
+$l['all']['ProxySecret'] = "代理密钥";
+$l['all']['DeadTime'] = "停滞时间";
+$l['all']['RetryDelay'] = "重试延迟";
+$l['all']['RetryCount'] = "重试次数";
+$l['all']['DefaultFallback'] = "默认反回";
+
+
+$l['all']['Firmware'] = "固件";
 $l['all']['NASMAC'] = "NAS MAC";
 
-$l['all']['WanIface'] = "Wan Iface";
+$l['all']['WanIface'] = "Wan接口";
 $l['all']['WanMAC'] = "Wan MAC";
 $l['all']['WanIP'] = "Wan IP";
-$l['all']['WanGateway'] = "Wan Gateway";
+$l['all']['WanGateway'] = "Wan网关";
 
-$l['all']['LanIface'] = "Lan Iface";
+$l['all']['LanIface'] = "Lan接口";
 $l['all']['LanMAC'] = "Lan MAC";
 $l['all']['LanIP'] = "Lan IP";
 
-$l['all']['WifiIface'] = "Wifi Iface";
+$l['all']['WifiIface'] = "Wifi接口";
 $l['all']['WifiMAC'] = "Wifi MAC";
 $l['all']['WifiIP'] = "Wifi IP";
 
 $l['all']['WifiSSID'] = "Wifi SSID";
 $l['all']['WifiKey'] = "Wifi Key";
-$l['all']['WifiChannel'] = "Wifi Channel";
+$l['all']['WifiChannel'] = "Wifi频率";
 
-$l['all']['CheckinTime'] = "Last Checked-In";
+$l['all']['CheckinTime'] = "最后检查";
 
 $l['all']['FramedIPAddress'] = "Framed-IP-Address";
 $l['all']['SimultaneousUse'] = "Simultaneous-Use";
